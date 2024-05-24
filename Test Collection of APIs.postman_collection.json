@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "9da316a8-cf0e-44f4-b2f7-b16095ca1190",
+		"name": "Test Collection of APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35159570"
+	},
+	"item": [
+		{
+			"name": "Fetching Book Details",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching single book details",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "TOKEN"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "video",
+							"type": "file",
+							"src": "/C:/Users/ADMIN/Downloads/phomai.mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5000/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
