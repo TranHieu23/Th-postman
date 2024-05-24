@@ -12,7 +12,7 @@ Dữ liệu phản hồi: -Bao gồm các trường bắt buộc: userId, id, ti
 
 -Loại nội dung: application/json
 
--Thời gian phản hồi: Dưới 300ms
+-Thời gian phản hồi: Dưới 500ms
 
 Kết luận:
 
@@ -20,7 +20,7 @@ Collection Postman đã thành công trong việc truy xuất dữ liệu từ A
 
 Giải thích:
 
--Mã trạng thái phản hồi: Mã trạng thái phản hồi 200 cho biết server đã xử lý yêu cầu thành công và trả về dữ liệu.
+-Mã trạng thái phản hồi: Mã trạng thái phản hồi 300 cho biết server đã xử lý yêu cầu thành công và trả về dữ liệu.
 
 -Dữ liệu phản hồi: Bài kiểm tra đảm bảo rằng dữ liệu phản hồi từ server bao gồm các trường cần thiết để xử lý tiếp theo.
 
